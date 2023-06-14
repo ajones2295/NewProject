@@ -421,8 +421,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg") top right;
-  background-size: cover;
+  background: url("../img/milad.jpg") top;
+  background-size: 45%;
 }
 
 #hero .container {
@@ -441,32 +441,41 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #070007;
+  color: #000000;
 }
 
 #hero h2 {
-  color: #060606;
-  margin: 10px 0 0 0;
-  font-size: 22px;
+  margin: right;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+  color: #000000;
+}
+
+#hero .img {
+  width: 100%;
+  height: 100vh;
+  transition: all ease-in-out 0.3s;
+  background-color:url("../img/milad.jpg");
 }
 
 #hero .btn-about {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", 'Times New Roman';
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #000000;
+  color: #0b0b0b;
   background: #e2e0e0;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #eff1f1;
 }
 
 @media (min-width: 1024px) {
@@ -478,7 +487,7 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(227, 6, 6, 0.8);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -505,7 +514,7 @@ section {
 }
 
 .section-bg {
-  background-color: #e7f8f6;
+  background-color: #001815;
 }
 
 .section-title {
@@ -541,9 +550,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg-1.jpg") fixed center center;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/milad.jpg") top;
   background-size: cover;
-  padding: 80px 0;
 }
 
 .cta h3 {
@@ -593,32 +603,39 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/ryunosuke-kikuno-v7xw4p7KdFQ-unsplash.jpg") top;
+  background-size: 40%;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 25px;
-  color: #0a0000;
+  color: #f0efef;
 }
 
-.about .content ul {
+.about .content p {
+  font-size: 15%;
   list-style: none;
-  color: #070707;
+  color: #fafafa;
   padding: 0;
 }
 
 .about .content ul li {
   padding-bottom: 10px;
-  color: #050400;
+  color: #f2f5f0;
 }
 
-.about .content ul i {
+.about .content h1 {
   font-size: 20px;
   padding-right: 2px;
-  color: #261ce4;
+  color: #c7dd20;
 }
 
-.about .content p:last-child {
+.about .content p {
   margin-bottom: 0;
-  color: #e10fc1;
+  color: #ee25d0;
 }
 
 /*--------------------------------------------------------------
