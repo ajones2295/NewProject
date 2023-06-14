@@ -610,7 +610,7 @@ section {
 .about {
   width: 100%;
   height: 100vh;
-  background: url("../img/klim-musalimov-rDMacl1FDjw-unsplash.jpg") top;
+  background: url("../img/drew.jpg") top;
   background-size: cover;
 }
 .about .content h3 {
@@ -991,6 +991,11 @@ section {
   height: 150vh;
   background: url("../img/milad.jpg") top;
   background-size: 45%;
+}
+
+img .phone {
+  width: 400px,
+  height: 300px
 }
 
 .portfolio .portfolio-item {
