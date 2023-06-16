@@ -104,7 +104,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #49cbbb;
+  background: #ec8dec;
   color: #fff;
 }
 
@@ -421,8 +421,8 @@ h6 {
 #hero {
   width: 100%;
   height: 125vh;
-  background: url("../img/photo-1615715250780-46fb0cf2ec2c.webp") top;
-  background-size: cover%;
+  background: url("../img/8801510.jpg") top;
+  background-size: cover;
 }
 
 #hero .container {
@@ -1076,7 +1076,7 @@ img .phone {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -1260,7 +1260,7 @@ img .phone {
 .contact .php-email-form .sent-message {
   display: none;
   color: #0f0f0f;
-  background: #dde8e2;
+  background: #e7dde8;
   text-align: center;
   padding: 15px;
   font-weight: 600;
