@@ -421,7 +421,7 @@ h6 {
 #hero {
   width: 100%;
   height: 125vh;
-  background: url("../img/8801510.jpg") top;
+  background: url("../img/pexels-tunnel-motions-2759484-3840x2160-60fps.mp4") top;
   background-size: cover;
 }
 
@@ -441,6 +441,11 @@ h6 {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#hero h3 {
+  font-size: 10%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #hero image {
   font;
 }
@@ -450,18 +455,26 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 100px;
-  color: #000000;
+  color: #ffffff;
 }
 
 #hero h2 {
   margin: right;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
-  line-height: 35px;
-  color: #000000;
+  line-height: 25px;
+  color: #ffffff;
 }
 
-#hero .img {
+#hero h3 {
+  margin: right;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+  #hero .img {
   width: 100%;
   height: 100vh;
   transition: all ease-in-out 0.3s;
@@ -479,8 +492,8 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fdf9f9;
-  background: #0a0a0a;
+  color: #000000;
+  background: #ffffff;
 }
 
 #hero .btn-about:hover {
@@ -1189,7 +1202,7 @@ img .phone {
 .contact {
   width: 100%;
   height: 100vh;
-  background: url("../img/drew.jpg") top;
+  background: url("../img/8801510") top;
   background-size: cover;
 }
 
@@ -1204,7 +1217,7 @@ img .phone {
   float: left;
   width: 44px;
   height: 44px;
-  background: #effbf9;
+  background: #f6f8f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1224,11 +1237,16 @@ img .phone {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #555555;
+  color: #040000;
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,{
+  background-color: #000;
+  margin-top: 40px;
+}
+.contact .info .input,{
+  background: #000;
   margin-top: 40px;
 }
 
@@ -1245,6 +1263,7 @@ img .phone {
 }
 
 .contact .php-email-form .form-group {
+ 
   padding-bottom: 8px;
 }
 
@@ -1298,7 +1317,7 @@ img .phone {
 }
 
 .contact .php-email-form input {
-  height: 44px;
+  height: 44px;background-color: #000;
 }
 
 .contact .php-email-form textarea {
@@ -1309,7 +1328,7 @@ img .phone {
   background: #080a0a;
   border: 0;
   padding: 10px 30px 12px 30px;
-  color: #fff;
+  color: #fbf9f9;
   transition: 0.4s;
   border-radius: 50px;
 }
