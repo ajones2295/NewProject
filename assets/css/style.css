@@ -421,7 +421,7 @@ h6 {
 #hero {
   width: 100%;
   height: 125vh;
-  background: url("../img/pexels-tunnel-motions-2759484-3840x2160-60fps.mp4") top;
+  background: url("../img/akabg.jpg") top;
   background-size: cover;
 }
 
@@ -1202,7 +1202,7 @@ img .phone {
 .contact {
   width: 100%;
   height: 100vh;
-  background: url("../img/8801510") top;
+  background: url("../img/drew.jpg") top;
   background-size: cover;
 }
 
@@ -1246,7 +1246,7 @@ img .phone {
   margin-top: 40px;
 }
 .contact .info .input,{
-  background: #000;
+  background-color: #000;
   margin-top: 40px;
 }
 
