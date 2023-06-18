@@ -447,7 +447,7 @@ h6 {
 }
 
 #hero image {
-  font;
+  font: bold;
 }
 
 #hero h1 {
@@ -460,17 +460,17 @@ h6 {
 
 #hero h2 {
   margin: right;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   color: #ffffff;
 }
 
 #hero h3 {
   margin: right;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 30px;
   color: #ffffff;
 }
 
@@ -575,7 +575,7 @@ section {
 
 .cta h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -1202,13 +1202,13 @@ img .phone {
 .contact {
   width: 100%;
   height: 100vh;
-  background: url("../img/drew.jpg") top;
+  background: url("../img/akabg.jpg") top;
   background-size: cover;
 }
 
 .contact .info {
   width: 100%;
-  background: #f8f6f6;
+  background: url(../img/akabg.jpg);
 }
 
 .contact .info i {
@@ -1223,6 +1223,15 @@ img .phone {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+}
+
+.contact .info h1 {
+ 
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222222;
+
 }
 
 .contact .info h4 {
@@ -1241,13 +1250,13 @@ img .phone {
 }
 
 .contact .info .email,
-.contact .info .phone,{
-  background-color: #000;
+.contact .info .phone {
+  background: url("../img/akabg.jpg");
   margin-top: 40px;
 }
-.contact .info .input,{
-  background-color: #000;
+.contact .info .input {
   margin-top: 40px;
+  
 }
 
 .contact .info .email:hover i,
@@ -1307,6 +1316,7 @@ img .phone {
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 4px;
+  background-color: #c70808;
   box-shadow: none;
   font-size: 14px;
 }
@@ -1314,14 +1324,17 @@ img .phone {
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
   border-color: #090b0b;
+  background-color: #030303;
 }
 
 .contact .php-email-form input {
-  height: 44px;background-color: #000;
+  height: 44px;
+  background-color: #000;
 }
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
+  background-color: #000;
 }
 
 .contact .php-email-form button[type=submit] {

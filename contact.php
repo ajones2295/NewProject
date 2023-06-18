@@ -7,12 +7,12 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'ashlynnsjones@yahoo.com';
+  $receiving_email_address ='ashlynnsjones@yahoo.com';
 
-  if( file_exists($google_contact_form = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdY1MEqKdcT9Qgu4q6lY2cV5gXCdkhP0c1CW03HJxoLAyo1w/viewform?embedded=true" width="640" height="824" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>' )) {
-    include( $google_contact_form );
+  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
+    include( $php_email_form );
   } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+    die( 'ashlynnsjones@yahoo.com');
   }
 
   $contact = new PHP_Email_Form;
@@ -26,7 +26,7 @@
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
   $contact->smtp = array(
-    'host' => 'example.com',
+    'host' => 'ashlynnsjones@yahoo.com',
     'username' => 'example',
     'password' => 'pass',
     'port' => '587'
