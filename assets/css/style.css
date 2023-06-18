@@ -455,7 +455,7 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 100px;
-  color: #ffffff;
+  color: #0c0000;
 }
 
 #hero h2 {
@@ -463,7 +463,7 @@ h6 {
   font-size: 20px;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: #0c0000;
 }
 
 #hero h3 {
@@ -471,7 +471,7 @@ h6 {
   font-size: 20px;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: #070000;
 }
 
   #hero .img {
@@ -1225,15 +1225,6 @@ img .phone {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h1 {
- 
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #222222;
-
-}
-
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
@@ -1245,7 +1236,7 @@ img .phone {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 15px;
   color: #040000;
 }
 
@@ -1329,12 +1320,12 @@ img .phone {
 
 .contact .php-email-form input {
   height: 44px;
-  background-color: #000;
+  background: url("../img/akabg.jpg");
 }
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
-  background-color: #000;
+  background: url("../img/akabg.jpg");
 }
 
 .contact .php-email-form button[type=submit] {
