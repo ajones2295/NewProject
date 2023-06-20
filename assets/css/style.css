@@ -497,7 +497,7 @@ h6 {
 }
 
 #hero .btn-about:hover {
-  background: #c4cece;
+  background: #ffffff;
 }
 
 @media (min-width: 1024px) {
@@ -509,7 +509,7 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -523,7 +523,7 @@ h6 {
   }
 
   #hero h2 {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 24px;
   }
 }
@@ -1015,6 +1015,25 @@ img .phone {
   margin-bottom: 30px;
 }
 
+.portfolio .btn-about {
+  font-family: "Raleway", 'Times New Roman';
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #ffffff;
+  background: #000000;
+}
+
+.portfolio .btn-about:hover {
+  background: #ffffff;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1146,6 +1165,7 @@ img .phone {
   margin-top: 20px;
   position: relative;
 }
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
