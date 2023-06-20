@@ -421,7 +421,7 @@ h6 {
 #hero {
   width: 100%;
   height: 125vh;
-  background: url("../img/akabg.jpg") top;
+  background: url("../img/adam-birkett-YkXdt3429hc-unsplash.jpg") top;
   background-size: cover;
 }
 
@@ -455,23 +455,23 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 100px;
-  color: #0c0000;
+  color: #ffffff;
 }
 
 #hero h2 {
   margin: right;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 30px;
-  color: #0c0000;
+  color: #ffffff;
 }
 
 #hero h3 {
   margin: right;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 30px;
-  color: #070000;
+  color: #ffffff;
 }
 
   #hero .img {
@@ -1202,13 +1202,13 @@ img .phone {
 .contact {
   width: 100%;
   height: 100vh;
-  background: url("../img/akabg.jpg") top;
+  background: url("../img/adam-birkett-YkXdt3429hc-unsplash.jpg") top;
   background-size: cover;
 }
 
 .contact .info {
   width: 100%;
-  background: url(../img/akabg.jpg);
+  background:#ffffff;
 }
 
 .contact .info i {
@@ -1217,7 +1217,7 @@ img .phone {
   float: left;
   width: 44px;
   height: 44px;
-  background: #f6f8f7;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1242,7 +1242,7 @@ img .phone {
 
 .contact .info .email,
 .contact .info .phone {
-  background: url("../img/akabg.jpg");
+  background:#ffffff;
   margin-top: 40px;
 }
 .contact .info .input {
