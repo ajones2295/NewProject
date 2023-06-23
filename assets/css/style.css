@@ -41,7 +41,7 @@ h6 {
   margin-top: 50px;
 }
 
-@media (max-width: 1025px) {
+@media (device-width: 428px device-height: 926px)  {
   #main  .resume{
     margin-top: 50px;
   }
@@ -145,7 +145,7 @@ h6 {
   max-height: 40px;
 }
 
-@media (max-width: 1025px) {
+@media (device-width: 428px device-height: 926px) {
   #header .logo {
     font-size: 28px;
   }
@@ -299,7 +299,7 @@ h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
+@media (device-width: 428px device-height: 926px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -434,7 +434,7 @@ h6 {
   position: relative;
 }
 
-@media (max-width: 1025px) {
+@media (device-width: 428px device-height: 926px)  {
   #hero .container {
     padding-top: 58px;
   }
@@ -504,13 +504,13 @@ h6 {
   background: #ffffff;
 }
 
-@media (min-width: 1025px) {
+@media (device-width: 428px)(device-height: 926px)  {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 1025px) {
+@media (device-width: 428px )(device-height: 926px)  {
   #hero:before {
     content: "";
     background: rgba(0, 0, 0, 0.8);
