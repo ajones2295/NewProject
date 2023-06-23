@@ -9,9 +9,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html  {
+  height: -webkit-fill-available;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444343;
+  color: #444343; height: -webkit-fill-available;
 }
 
 a {
@@ -420,7 +424,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 200vh;
+  height: 130vh;
   background: url("../img/adam-birkett-YkXdt3429hc-unsplash.jpg") top;
   background-size: cover;
 }
@@ -798,7 +802,7 @@ section {
 --------------------------------------------------------------*/
 .resume {
   width: 100%;
-  height: 3000vh;
+  height: 210vh;
   background: url("../img/pexels-rostislav-uzunov-9150545-1920x1080-24fps.mp4") ;
   background-size: cover;
 }
