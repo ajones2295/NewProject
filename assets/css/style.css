@@ -337,7 +337,7 @@ h6 {
 
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
+  overflow: scroll;
   top: 0;
   right: 0;
   left: 0;
@@ -434,7 +434,7 @@ h6 {
   position: relative;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   #hero .container {
     padding-top: 58px;
   }
@@ -504,13 +504,13 @@ h6 {
   background: #ffffff;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   #hero:before {
     content: "";
     background: rgba(0, 0, 0, 0.8);
