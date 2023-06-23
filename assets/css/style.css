@@ -42,18 +42,10 @@ h6 {
 }
 
 @media (max-width: 1025px) {
-  #main 
-   {
+  #main {
     margin-top: 50px;
   }
-@media screen (max-height: 1000px) {
-    #main #hero .resume .portfolio
-  }
-@media screen (max-width 1025px) {
-      #main #hero .portfolio .resume
- } 
-      
-   
+}
 
 /*--------------------------------------------------------------
 # Preloader
