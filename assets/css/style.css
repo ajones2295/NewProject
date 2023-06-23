@@ -41,9 +41,9 @@ h6 {
   margin-top: 50px;
 }
 
-@media (max-width: 992px) {
-  #main {
-    margin-top: 30px;
+@media (max-width: 1025px) {
+  #main  .resume{
+    margin-top: 50px;
   }
 }
 
@@ -145,7 +145,7 @@ h6 {
   max-height: 40px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1025px) {
   #header .logo {
     font-size: 28px;
   }
@@ -325,7 +325,7 @@ h6 {
   color: #fff;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1025px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -434,7 +434,7 @@ h6 {
   position: relative;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
   #hero .container {
     padding-top: 58px;
   }
@@ -504,13 +504,13 @@ h6 {
   background: #ffffff;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1025px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1025px) {
   #hero:before {
     content: "";
     background: rgba(0, 0, 0, 0.8);
@@ -613,7 +613,7 @@ section {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   .cta .cta-btn-container {
     display: flex;
     align-items: center;
