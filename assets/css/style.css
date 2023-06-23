@@ -41,11 +41,19 @@ h6 {
   margin-top: 50px;
 }
 
-@media (device-width: 428px device-height: 926px)  {
-  #main  .resume{
+@media (max-width: 1025px) {
+  #main 
+   {
     margin-top: 50px;
   }
-}
+@media screen (max-height: 1000px) {
+    #main #hero .resume .portfolio
+  }
+@media screen (max-width 1025px) {
+      #main #hero .portfolio .resume
+ } 
+      
+   
 
 /*--------------------------------------------------------------
 # Preloader
@@ -145,7 +153,7 @@ h6 {
   max-height: 40px;
 }
 
-@media (device-width: 428px device-height: 926px) {
+@media (max-width: 1025px) {
   #header .logo {
     font-size: 28px;
   }
@@ -299,7 +307,7 @@ h6 {
   visibility: visible;
 }
 
-@media (device-width: 428px device-height: 926px) {
+@media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -434,7 +442,7 @@ h6 {
   position: relative;
 }
 
-@media (device-width: 428px device-height: 926px)  {
+@media (max-width: 1025px) {
   #hero .container {
     padding-top: 58px;
   }
@@ -504,13 +512,13 @@ h6 {
   background: #ffffff;
 }
 
-@media (device-width: 428px)(device-height: 926px)  {
+@media (min-width: 1025px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (device-width: 428px )(device-height: 926px)  {
+@media (max-width: 1025px) {
   #hero:before {
     content: "";
     background: rgba(0, 0, 0, 0.8);
@@ -613,7 +621,7 @@ section {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .cta .cta-btn-container {
     display: flex;
     align-items: center;
