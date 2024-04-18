@@ -432,7 +432,7 @@ meta  { min-height: auto; max-width: auto;
 #hero {
   width: auto;
   height: auto;
-  background-color: #000;
+  background: url("../img/adam-birkett-YkXdt3429hc-unsplash.jpg") bottom;
   background-size: 100%;
 }
 
