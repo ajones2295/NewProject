@@ -1166,6 +1166,7 @@ img .phone {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
+  background-color: #edf4f3;
   padding-top: 0;
 }
 
@@ -1193,7 +1194,7 @@ img .phone {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
+  box-shadow: 0px 0 30px rgba(10, 0, 0, 0.897);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1201,21 +1202,25 @@ img .phone {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #d95892;
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
+  background-color: #f8f5f5;
   padding: 0;
   font-size: 15px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
+  font-size: 10px;
 }
 
 .portfolio-details .portfolio-description {
   padding-top: 30px;
+  background-color: #000000;
+  font-size: 15px;
 }
 
 .portfolio-details .portfolio-description h2 {
