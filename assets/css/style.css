@@ -125,10 +125,11 @@ h6 {
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
+  font-size: 12px;
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -147,7 +148,7 @@ h6 {
 
 @media (max-width: 1025px) {
   #header .logo {
-    font-size: 28px;
+    font-size: 10px;
   }
 }
 
@@ -199,7 +200,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Raleway", sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
   font-weight: 600;
   color: #888888;
@@ -222,7 +223,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #000605;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -432,8 +433,9 @@ meta  { min-height: auto; max-width: auto;
 #hero {
   width: auto;
   height: auto;
-  background: url("../img/klim-musalimov-rDMacl1FDjw-unsplash.jpg") bottom;
-  background-size: 100%;
+  background:#54dcc6 bottom;
+  background-size: auto;
+  
 }
 
 #hero .container {
@@ -447,13 +449,7 @@ meta  { min-height: auto; max-width: auto;
   }
 }
 
-#hero h2 {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-#hero h3 {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 #hero image {
   font: bold;
@@ -461,33 +457,41 @@ meta  { min-height: auto; max-width: auto;
 
 #hero h1 {
   margin: center;
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 100px;
-  color: #ffffff;
+  font-size: 65px;
+  font: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  line-height: 50px;
+  color: #000000;
+  border-radius: 50px;
+  padding: 5px;
 }
 
+
 #hero h2 {
-  margin: right;
+  margin: center;
   font-size: 15px;
-  font-weight: 300;
-  line-height: 30px;
-  color: #ffffff;
+  font-weight: 20px;
+  line-height: 25px;
+  font-family: ge;
+  color: #261010;
 }
 
 #hero h3 {
   margin: right;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300px;
+  line-height: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #ffffff;
 }
 
   #hero .img {
   width: 100%;
   height: 100vh;
+  line-height: 100px;
   transition: all ease-in-out 0.3s;
-  background-color:#000;
+  background-color:#ffffff;
 }
 
 #hero .btn-about {
@@ -501,12 +505,12 @@ meta  { min-height: auto; max-width: auto;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #000000;
-  background: #ffffff;
+  color: #040404;
+  background: #ffffffd0;
 }
 
 #hero .btn-about:hover {
-  background: #ffffff;
+  background: #f3efef49;
 }
 
 @media (min-width: 1025px) {
@@ -518,24 +522,15 @@ meta  { min-height: auto; max-width: auto;
 @media (max-width: 600px) {
   #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
+    position: auto;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
   }
 
-  #hero h1 {
-    font-size: 35px;
-    line-height: 36px;
   }
 
-  #hero h2 {
-    font-size: 15px;
-    line-height: 24px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -1043,7 +1038,7 @@ img .phone {
 }
 
 .portfolio .btn-about:hover {
-  background: #ffffff;
+  background: #110f0f55;
 }
 
 .portfolio #portfolio-flters {
@@ -1166,8 +1161,13 @@ img .phone {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
+  width:auto;
+  height: auto;
   background-color: #edf4f3;
-  padding-top: 0;
+  background-size: auto;
+  font-size: ;
+  color: #111211;
+  padding: 100px;%;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1194,7 +1194,7 @@ img .phone {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(10, 0, 0, 0.897);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.738);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1212,9 +1212,18 @@ img .phone {
   font-size: 15px;
 }
 
+.portfolio-details .portfolio-info li strong {
+font-size: 15px;
+padding: 2px;
+}
+
+
+
 .portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
   font-size: 10px;
+  word-spacing:;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .portfolio-details .portfolio-description {
@@ -1227,6 +1236,7 @@ img .phone {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  
 }
 
 .portfolio-details .portfolio-description p {
