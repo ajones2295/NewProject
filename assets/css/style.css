@@ -456,7 +456,7 @@ meta  { min-height: auto; max-width: auto;
 }
 
 #hero h1 {
-  margin: center;
+  margin:auto;
   font-size: 65px;
   font: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
