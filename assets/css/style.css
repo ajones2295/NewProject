@@ -456,7 +456,7 @@ meta  { min-height: auto; max-width: auto;
 }
 
 #hero h1 {
-  margin:auto;
+  margin: auto;
   font-size: 65px;
   font: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -464,7 +464,7 @@ meta  { min-height: auto; max-width: auto;
   line-height: 50px;
   color: #000000;
   border-radius: 50px;
-  padding: 5px;
+  padding: 15px;
 }
 
 
@@ -492,6 +492,7 @@ meta  { min-height: auto; max-width: auto;
   line-height: 100px;
   transition: all ease-in-out 0.3s;
   background-color:#ffffff;
+  padding: auto;
 }
 
 #hero .btn-about {
