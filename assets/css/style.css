@@ -1171,7 +1171,7 @@ img .phone {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: auto;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -1193,7 +1193,7 @@ img .phone {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
+  padding: 10px;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.738);
 }
 
