@@ -433,7 +433,7 @@ meta  { min-height: auto; max-width: auto;
 #hero {
   width: auto;
   height: auto;
-  background:#54dcc6 bottom;
+  background:#edf3f2 bottom;
   background-size: auto;
   
 }
@@ -507,8 +507,8 @@ meta  { min-height: auto; max-width: auto;
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #040404;
-  background: #ffffffd0;
+  color: #f7f3f3;
+  background: #0a0000d0;
   
 }
 
