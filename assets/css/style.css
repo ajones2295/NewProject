@@ -809,7 +809,7 @@ html
 .resume {
   width: auto;
   height: auto;
-  background: url("../img/drew.jpg") ;
+  background-color: #95c2bc77 ;
   background-size: 100%;
 }
 
